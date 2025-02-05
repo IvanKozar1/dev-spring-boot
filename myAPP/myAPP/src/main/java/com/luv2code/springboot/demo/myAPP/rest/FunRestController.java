@@ -9,4 +9,14 @@ public class FunRestController {
     public String sayHello() {
         return "Hello Wordl";
     }
+
+    @GetMapping("/workout")
+    public String getDailyWorkout() {
+        return "Bicep curls";
+    }
+
+    @GetMapping("/vedran")
+    public String aboutVedran() {
+        return "Vedran je mali klokan";
+    }
 }
